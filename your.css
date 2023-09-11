@@ -1,0 +1,52 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: aqua; */
+    height: 300px;
+    width: 600px;
+}
+/* heading div */
+.from{
+    background-color: rgb(223, 178, 155);
+}
+.from h1{
+/* padding: 2px 60PX; */
+text-align: center;
+}
+#a{
+    text-align: center;
+    color: rgba(247, 190, 27) ;
+}
+/* name div */
+.first-name{
+padding: 5px 0px;
+}
+#last-name{
+    padding: 5px 72px;
+}
+#fl-name{
+    display: flex;
+}
+/* number div */
+.case{
+    padding: 5px 0px;
+}
+.number{
+    padding: 5px 72px;
+}
+#cn{
+    display: flex;
+}
+/* agency div */
+.agency{
+    padding: 5px 0px;
+}
+/* input box */
+input{
+    padding: 5px;
+    margin-top: 5px;
+    width: 250px;
+    border-radius: 5px;
+}
