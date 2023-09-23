@@ -1,8 +1,10 @@
 .center{
-    position: absolute;
+    margin-top: 5cm;
+    margin-left: 6cm;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
     /* background-color: aqua; */
     height: 300px;
     width: 600px;
@@ -49,4 +51,55 @@ input{
     margin-top: 5px;
     width: 250px;
     border-radius: 5px;
+}
+@media only screen and (max-width: 496px){
+    .center{
+        margin-top: 0cm;
+        margin-left: 0cm;
+        height: 300px;
+        width: 600px;
+    }
+    /* heading div */
+    .from{
+        background-color: rgb(223, 178, 155);
+    }
+    .from h1{
+    /* padding: 2px 60PX; */
+    text-align: center;
+    }
+    #a{
+        text-align: center;
+        color: rgba(247, 190, 27) ;
+    }
+    /* name div */
+    .first-name{
+    padding: 0px 0px;
+    }
+    #last-name{
+        padding: 0px 0px;
+    }
+    #fl-name{
+        display: block;
+    }
+    /* number div */
+    .case{
+        padding: 0px 0px;
+    }
+    .number{
+        padding: 0px 0px;
+    }
+    #cn{
+        display: block;
+    }
+    /* agency div */
+    .agency{
+        padding: 0px 0px;
+    }
+    /* input box */
+    input{
+        padding: 5px;
+        margin-top: 5px;
+        width: 585px;
+        border-radius: 5px;
+   }
 }
