@@ -10,6 +10,8 @@
 .My-details{
     width: 20cm;
     height: 7cm;
+    display: flex;
+    justify-content: space-between;
 }
 .My-details1{
     padding-top: 2px;
@@ -63,8 +65,9 @@
 }
 .My-details{
     width: 100%;
-    height: auto;
     margin-bottom: 1cm;
+    display: flex;
+    justify-content: space-between;
 }
 .My-details1{
     padding-top: 1px;
