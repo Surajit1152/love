@@ -1,0 +1,101 @@
+.full-page{
+    width: 20cm;
+    height: auto;
+    padding-left: 7cm;
+    padding-top: 2cm;
+}
+.full-page2{
+    background-color: aqua;
+}
+.My-details{
+    width: 20cm;
+    height: 7cm;
+}
+.My-details1{
+    padding-top: 2px;
+    margin-left: 0.5cm;
+}
+.photo img{
+    width: 4cm;
+    height: 4cm;
+    float:right;
+    margin-top: 0.5cm;
+    margin-right: 0.5cm;
+}
+.My-details1 li{
+    list-style: none;
+    font-size: 20px;
+}
+.name{
+    font-size: 20px;
+}
+.Address{
+    font-size: 20px;
+}
+.Address1{
+    display: flex;
+}
+.Address2{
+    padding-left: 4px;
+    padding-top: 21px;
+}
+.if{
+    /* display: flex; */
+    padding-bottom: 0.5cm;
+    margin-left: 0.5cm;
+}
+.if1{
+    margin-left: 2px;
+    height:300px;
+    width:720px;
+}
+.if2{
+    height:300px;
+    width:720px;
+}
+@media only screen and (max-width: 480px){
+.full-page{
+    width: 286px;
+    margin: 0%;
+    background-color: aqua;
+    padding-left: 0%;
+    padding-top: 0%;
+}
+.My-details{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1cm;
+}
+.My-details1{
+    padding-top: 1px;
+    margin-left: 0.1cm;
+}
+.photo img{
+    width: 2cm;
+    height: 2cm;
+    float:right;
+    margin-top: 0.5cm;
+    margin-right: 0%;
+    /* margin-left: 10cm; */
+}
+.if{
+   display: block;
+   margin-left: 0%;
+} 
+.if1{
+    margin: 0%;
+    height:400px;
+    width:720px;
+}
+.Address2{
+    padding-top: 0%;
+    margin-top: 21px;
+}
+.Address1{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.name{
+    height: 1.5cm;
+}
+}
