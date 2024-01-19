@@ -1,0 +1,356 @@
+*{
+    margin: 0%;
+}
+/* nav bar */
+.navbar{
+    /* background: rgb(12, 12, 12); */
+    /* opacity: 0.7; */
+   background-color: rgba(0, 0, 0, 0.5);
+    height: 1.5cm;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.nav-name{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.nav-manu ul{
+    display: flex;
+    align-items: center;
+    gap: 1cm;
+    margin-right: 10px;
+}
+.nav-manu li{
+    list-style-type: none;
+}
+.nav-manu a{
+    color: white;
+    /* color: rgb(5, 161, 223); */
+    text-decoration: none;
+    font-weight: 600;
+}
+/* .nav-a:visited{
+    color: rgb(5, 5, 128);
+} */
+.nav-a:active{
+    color: red;
+}
+.nav-manu img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.manu{
+    display: none;
+}
+.manu-bar{
+    width: 20px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 4px 10px 4px 4px;
+    margin-right: 10px;
+    background-color: white;
+}
+@media(max-width:700px){
+    .nav-manu ul{
+        gap: 0.5cm;
+    }
+    .nav-manu a{
+        font-weight: 400;
+        font-size: 15px;
+    }
+}
+@media (max-width:575px){
+    .manu{
+        display: block;
+    }
+    .nav-manu{
+        display: none;
+    }
+}
+/* .......................................................................................................... */
+/* home page */
+section{
+    width: 100%;
+    /* height: 643px; */
+    height: 100vh;
+}
+#home-section{
+    background-image: url(home.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.home{
+    width: 55%;
+    margin-left: 5%;
+}
+.welcome{
+    font-size: 40px;
+    margin: 10px;
+    font-weight: 700;
+    
+        text-transform: uppercase;
+       background-image: linear-gradient(
+         -225deg,
+         #2c9fc5 0%,
+         #a4d3f7 29%,
+         #ff1361 67%,
+         #a9a9f0 100%
+       );
+       background-size: 200% auto;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       animation: textclip 2s linear infinite;
+     }
+     @keyframes textclip {
+       to {
+         background-position: 200% center;
+       }
+     
+}
+.hi{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 177, 243);
+    margin: 10px;
+}
+.frontend{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(168, 203, 233);
+    margin: 10px;
+}
+.lorem{
+    font-size: 17px;
+    font-weight: 300;
+    font-style: italic;
+    color: azure;
+    margin: 10px;
+}
+.home-button{
+    margin: 50px 0px 0px 10px;
+    display: flex;
+}
+.hire{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(27, 248, 7);
+    padding: 8px 6px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.hire:hover{
+    background-color: white;
+    color: blue;
+}
+.let{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    background-color: white;
+    padding: 8px 6px;
+    border-radius: 4px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.let:hover{
+    background-color: rgb(7, 150, 206);
+    color: white;
+}
+.home-button a:active{
+    color: red;
+    background-color: rgb(24, 8, 252);
+}
+@media(max-width:450px){
+    .home{
+        width: 100%;
+        margin: 0%;
+    }
+    /* .welcome{
+        word-break: break-word;
+    } */
+    /* .hi{
+        word-break: break-all;
+    }
+    .frontend{
+        word-break: break-all;
+    }
+    .lorem{
+        word-break: break-all;
+    } */
+    .home-button{
+        margin: 50px 0px 0px 10px;
+    }
+    .hire{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(27, 248, 7);
+        padding: 8px 6px;
+        border-radius: 4px;
+        font-weight: 400;
+    }
+    .hire:hover{
+        background-color: white;
+        color: blue;
+    }
+    .let{
+        text-decoration: none;
+        font-size: 20px;
+        color: blue;
+        background-color: white;
+        padding: 8px 6px;
+        border-radius: 4px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+    .let:hover{
+        background-color: rgb(7, 150, 206);
+        color: white;
+    }
+    .home-button a:active{
+        color: red;
+        background-color: rgb(24, 8, 252);
+    }
+}
+/* ............................................................................................................. */
+#about-section{
+    width: 100%;
+    height: 100vh;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+}
+.photo-about{
+    width: 40%;
+    height: auto;
+    /* background-color: #ff1361; */
+    display: flex;
+    justify-content: center;
+}
+.photo-about img{
+    height: auto;
+    width: 60%;
+}
+.flex{
+    width: 100%;
+    /* background-color: #16ce16; */
+}
+.flex1{
+    width: 60%;
+    /* background-color: #ff1361; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.flex-about{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 15%; */
+    width: 80%;
+    /* background-color: brown; */
+}
+.flex-about1{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 15%; */
+    width: 80%;
+    /* background-color: rgb(19, 228, 82); */
+    margin-top: 20px;
+}
+.about-me{
+    width: 45%;
+    height: auto;
+    /* background-color: black; */
+    margin-right: 5%;
+}
+.about{
+    font-size: 1.2em;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+.me{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+.my-journey{
+    width: 45%;
+    height: auto;
+    margin-left: 5%;
+}
+@media(max-width:850px){
+    .photo-about img{
+       margin-left: 5%;
+    }
+    .flex-about{
+        display: block;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .flex-about1{
+        display: block;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .about-me{
+        width: 100%;
+        margin-right: 0%;
+    }
+    .my-journey{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media(max-width:750px){
+    #about-section{
+        display: block;
+        height: 100%;
+        padding-top: 20px;
+    }
+    .photo-about{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .photo-about img{
+        height: auto;
+        width: 60%;
+    }
+    .flex{
+        width: 80%;
+        /* background-color: #ff1361; */
+    }
+    .flex1{
+        width: 100%;
+        /* background-color: #ff1361; */
+        display: flex;
+        justify-content: center;
+        
+
+    }
+    .about{
+        display: flex;
+        justify-content: center;
+    }
+    .about-me{
+        margin-top: 10px;
+    }
+    .my-journey{
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+/* ............................................................................................................... */
